@@ -1,0 +1,1 @@
+<a href="pages/shop.html" class="btn half__btn">Пройти тест</a>

@@ -1,0 +1,37 @@
+@import "helpers/reset.css";
+/*@import "libraries/owl.theme.default.min.css";*/
+/*@import "libraries/owl.carousel.min.css";*/
+@import "helpers/variables.css";
+@import "helpers/elements.css";
+@import "helpers/fonts.css";
+@import "blocks/common.css";
+@import "blocks/header.css";
+@import "blocks/simple-button-content.css";
+@import "blocks/half.css";
+@import "blocks/slider.css";
+@import "blocks/columns.css";
+@import "blocks/news.css";
+@import "blocks/footer.css";
+@import "blocks/uniq.css";
+@import "blocks/text.css";
+@import "blocks/scroll.css";
+@import "blocks/shop.css";
+@import "blocks/consult.css";
+@import "blocks/person.css";
+@import "blocks/table.css";
+
+html, body{
+	font-size: var(--fz);
+	line-height: var(--lh);
+	position: relative;
+	font-family: 'FuturaNewLight-Reg';
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+	width: 100%;	 
+}
+
+/*html{
+	background: url(../images/all.jpg);
+	opacity: .5;
+	-ms-background-position-x: center;
+	background-position-x: center;
+}*/

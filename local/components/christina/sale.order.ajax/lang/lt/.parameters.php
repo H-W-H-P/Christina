@@ -1,0 +1,34 @@
+<?
+$MESS["SOA_DESC_YES"] = "Taip";
+$MESS["SOA_DESC_NO"] = "Ne";
+$MESS["SOA_PATH_TO_BASKET"] = "Krepšelio puslapis";
+$MESS["SOA_PATH_TO_PERSONAL"] = "Vartotojo asmeninis puslapis";
+$MESS["SOA_ALLOW_PAY_FROM_ACCOUNT"] = "Leisti mokėti iš vidinės sąskaitos";
+$MESS["SOA_PATH_TO_PAYMENT"] = "Mokėjimo sistemos integravimo puslapis";
+$MESS["SOA_PATH_TO_AUTH"] = "Autorizacijos puslapis";
+$MESS["SOA_COUNT_DELIVERY_TAX"] = "Apskaičiuoti pristatymo mokestį";
+$MESS["SOA_ONLY_FULL_PAY_FROM_ACCOUNT"] = "Iš vidaus sąskaitų leisti tik pilną apmokėjimą";
+$MESS["SOA_PROPS_NOT_SHOW"] = "Nerodyti mokėtojo tipo savybės";
+$MESS["SOA_SHOW_ALL"] = "(rodyti viską)";
+$MESS["SOA_ALLOW_AUTO_REGISTER"] = "Automatiškai registruoti naudotoją užsakymo metu";
+$MESS["SOA_SEND_NEW_USER_NOTIFY"] = "Pranešti naudotojui  apie jo įregistravimą";
+$MESS["SOA_DELIVERY_NO_AJAX"] = "Skubus pristatymo skaičiavimas";
+$MESS["SOA_DELIVERY_NO_SESSION"] = "Patikrinkite sesiją, kurdami užsakymą";
+$MESS["SBB_TEMPLATE_LOCATION"] = "Lokacijos šablonas";
+$MESS["SBB_TMP_DEFAULT"] = "Numatytasis";
+$MESS["SBB_TMP_POPUP"] = "Paieškos eilutė";
+$MESS["SBB_DELIVERY_PAYSYSTEM"] = "Usakymo proceso seka";
+$MESS["SBB_TITLE_DP"] = "Apmokėjimas -> Pristatymas";
+$MESS["SBB_TITLE_PD"] = "Pristatymas  -> Apmokėjimas ";
+$MESS["SBB_USE_PREPAYMENT"] = "Naudokite \"PayPal Express kontrolę";
+$MESS["SOA_DISABLE_BASKET_REDIRECT"] = "Negalima nukreipti, jei krepšelis tuščias";
+$MESS["SOA_PRODUCT_COLUMNS"] = "Papildomi stulpeliai užsakymo prekių lentelėje";
+$MESS["SOA_PREVIEW_PICTURE"] = "Vaizdas";
+$MESS["SOA_DETAIL_PICTURE"] = "Detalus  vaizdas";
+$MESS["SOA_PREVIEW_TEXT"] = "Trumpas aprašymas";
+$MESS["SOA_PROPS"] = "Savybės";
+$MESS["SOA_PRICE_TYPE"] = "Kainos tipas";
+$MESS["SOA_DISCOUNT"] = "Nuolaida";
+$MESS["SOA_WEIGHT"] = "Svoris";
+$MESS["SOA_COUNT_DISCOUNT_4_ALL_QUANTITY"] = "Apskaičiuoti nuolaidą už kiekvieną užsakymo elementą (visas kiekis)";
+?>
