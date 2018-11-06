@@ -65,6 +65,12 @@ else
 					    }
 					    return false;
 					});
+					$('.input').focusout(function () {
+						$(this).removeClass('has_cont');
+						if ($(this).val().length) {
+							$(this).addClass('has_cont');
+						}
+					});
 				});
 				</script>
 				<h2 class="title common__title">Добавить новый адрес</h2>

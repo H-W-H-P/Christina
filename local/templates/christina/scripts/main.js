@@ -122,7 +122,7 @@ $(document).ready(function () {
 	
 	$('.input').focusout(function () {
 		$(this).removeClass('has_cont');
-		if ($(this).val()) {
+		if ($(this).val().length) {
 			$(this).addClass('has_cont');
 		}
 	});
@@ -802,6 +802,7 @@ $(document).ready(function () {
 	
 	$('.input[name="date"]').mask('00/00/0000');
 	$('.input[name="tel"]').mask('(000) 000 0000');
+	$('.input.prop_phone').mask('(000) 000 0000');
 
 	// map + api
 	$('.input_drop__toggle').click(function () {

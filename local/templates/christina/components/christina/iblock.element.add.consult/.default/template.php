@@ -70,6 +70,7 @@ if (strlen($arResult["MESSAGE"]) > 0):?>
 	
 <?else:?>
 <form name="iblock_add" action="<?=POST_FORM_ACTION_URI?>" method="post" enctype="multipart/form-data" id="formcons" class="common__form consult_write_form">
+	<h1 class="consult_form__title title">Задать вопрос</h1>
 	<?=bitrix_sessid_post()?>
 	<?if ($arParams["MAX_FILE_SIZE"] > 0):?><input type="hidden" name="MAX_FILE_SIZE" value="<?=$arParams["MAX_FILE_SIZE"]?>" /><?endif?>
 	<?GLOBAL $USER?>

@@ -93,8 +93,8 @@ $('#subreg').click(function(){
         else{
         	email.parent().addClass('error'); 
         	email.parent().addClass('wrong'); 
-        	email.val('');
-        	email.attr("placeholder", "Неверный E-Mail");
+        	// email.val('');
+        	// email.attr("placeholder", "Неверный E-Mail");
             submit = false;
         }
     }
@@ -126,7 +126,7 @@ $('#subreg').click(function(){
 
 <?if($USER->IsAuthorized()):?>
 
-<p style='font-size: 17px; min-height: 150px'><?echo GetMessage("MAIN_REGISTER_AUTH")?> <br> Перейдите в личный кабинет нажав на <a href='/personal/'>ссылку</a></p>
+<p style='font-size: 17px; min-height: 150px'><?echo GetMessage("MAIN_REGISTER_AUTH")?> <br> Перейдите в личный кабинет нажав на <a class="laned" href='/personal/'>ссылку</a></p>
 
 <?else:?>
 <?

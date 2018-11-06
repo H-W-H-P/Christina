@@ -158,6 +158,12 @@ if(!empty($_GET['del'])){
 							pass2.parent().removeClass('error');
 							pass2.parent().removeClass('wrong');
 					    }
+
+					    $('.input').each(function( index ) {
+							if ($(this).val().length) {
+								$(this).addClass('has_cont');
+							}
+						});	
 					                
 					    if(submit){
 					        $('#res-adres').load('/include/adres.php',$('#form-adres').serializeArray());

@@ -39,8 +39,8 @@ $('#sublogin').click(function(){
         else{
         	email.parent().addClass('error'); 
         	email.parent().addClass('wrong');
-        	email.val('');
-        	email.attr("placeholder", "Неверный E-Mail");
+        	// email.val('');
+        	// email.attr("placeholder", "Неверный E-Mail");
             submit = false;
         }
     }
@@ -50,6 +50,12 @@ $('#sublogin').click(function(){
     }
     return false;
 });
+
+$('.input').each(function( index ) {
+    if ($(this).val().length) {
+        $(this).addClass('has_cont');
+    }
+}); 
 
 $('#forgot').click(function(){
     var submit = true; 
@@ -109,7 +115,7 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
 							<div class="input_wr w_ph">
 								<input id="login" name="USER_LOGIN" type="text" class="input prop_email" value="<?=$_POST['USER_LOGIN']?>">
 								<label class="ph" for="login" class="">E-mail</label>
-								<p class="warning">неверный Логин </p>
+								<p class="warning">неверный E-mail </p>
 							</div>
 							<div class="input_wr w_ph">
 								<input id="pass" name="USER_PASSWORD" type="password" class="input prop_name">
@@ -132,20 +138,6 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
 					</form>
 					</div>
 					<a href="#" class="registr_form__forget_pass">Забыли пароль?</a>
-					<p class="registr_form__text_abs_wr">
-						<span>или</span>
-					</p>
-					<p>Авторизуйтесь через социальную сеть</p>
-					<div class="registr_form__socials">
-						<a href="#" class="footer__social">
-							<img src="<?=SITE_TEMPLATE_PATH?>/images/footer_social2.svg" alt="">
-							<img class="hov" src="<?=SITE_TEMPLATE_PATH?>/images/footer_social2_hov.svg" alt="">
-						</a>
-						<a href="#" class="footer__social">
-							<img src="<?=SITE_TEMPLATE_PATH?>/images/footer_social1.svg" alt="">
-							<img class="hov" src="<?=SITE_TEMPLATE_PATH?>/images/footer_social1_hov.svg" alt="">
-						</a>
-					</div>
 <?endif?>
 <?else:?>
 <?

@@ -95,7 +95,11 @@ $('#subuser').click(function(){
     	data.parent().removeClass('wrong');
     }
    
-
+    $('.input').each(function( index ) {
+        if ($(this).val().length) {
+            $(this).addClass('has_cont');
+        }
+    }); 
                        
     if(submit){
     	var formData = new FormData($('#formuser')[0]);
@@ -114,6 +118,13 @@ $('#subuser').click(function(){
     }
     return false;
 });
+   
+$('.input').each(function( index ) {
+    if ($(this).val().length) {
+        $(this).addClass('has_cont');
+    }
+}); 
+
 });
 </script>
 

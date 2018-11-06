@@ -104,8 +104,8 @@ $('#subreg2').click(function(){
         else{
         	email.parent().addClass('error'); 
         	email.parent().addClass('wrong'); 
-        	email.val('');
-        	email.attr("placeholder", "Неверный E-Mail");
+        	// email.val('');
+        	// email.attr("placeholder", "Неверный E-Mail");
             submit = false;
         }
     }
@@ -137,7 +137,7 @@ $('#subreg2').click(function(){
 
 <?if($USER->IsAuthorized()):?>
 
-<p style='font-size: 17px; min-height: 150px'><?echo GetMessage("MAIN_REGISTER_AUTH")?> <br> Перейдите в личный кабинет нажав на <a href='/personal/'>ссылку</a></p>
+<p style='font-size: 17px; min-height: 150px'><?echo GetMessage("MAIN_REGISTER_AUTH")?> <br> Перейдите в личный кабинет нажав на <a class="laned" href='/personal/'>ссылку</a></p>
 
 <?else:?>
 <?
@@ -168,7 +168,7 @@ else{
 			<script type="text/javascript">
 				$('#form-confirmation').hide();
 				</script>
-			<?echo "<p style='font-size: 20px; min-height: 150px'>Вы успешно зарегистрировались! <br> Перейдите в личный кабинет нажав на <a href='/personal/'>ссылку</a></p>";
+			<?echo "<p style='font-size: 20px; min-height: 150px'>Вы успешно зарегистрировались! <br> Перейдите в личный кабинет нажав на <a href='/personal/' class='laned'>ссылку</a></p>";
 		}
 	}
 }?>

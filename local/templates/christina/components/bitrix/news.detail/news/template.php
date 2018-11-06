@@ -35,16 +35,19 @@ $this->setFrameMode(true);
 					<li>
 						<a href="https://www.facebook.com/sharer/sharer.php?u=[<?=$url?>]" class="text_news__social_link">
 							<img src="<?=SITE_TEMPLATE_PATH?>/images/fb_b.svg" alt="" class="text_news__social_icon">
+							<img src="<?=SITE_TEMPLATE_PATH?>/images/footer_social1.svg" alt="" class="text_news__social_icon hov">
 						</a>
 					</li>
 					<li>
 						<a href="http://vk.com/share.php?url=[<?=$url?>]noparse=true" class="text_news__social_link">
 							<img src="<?=SITE_TEMPLATE_PATH?>/images/vk_b.svg" alt="" class="text_news__social_icon">
+							<img src="<?=SITE_TEMPLATE_PATH?>/images/footer_social2.svg" alt="" class="text_news__social_icon hov">
 						</a>
 					</li>
 					<li>
 						<a href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&amp;st.s=1&amp;st._surl=[<?=$url?>]" class="text_news__social_link">
 							<img src="<?=SITE_TEMPLATE_PATH?>/images/ok_b.svg" alt="" class="text_news__social_icon">
+							<img src="<?=SITE_TEMPLATE_PATH?>/images/ok_w.svg" alt="" class="text_news__social_icon hov">
 						</a>
 					</li>
 				</ul>

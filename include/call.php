@@ -40,7 +40,6 @@
 <script type="text/javascript">
 $('.input').each(function( index ) {
 	if ($(this).val().length) {
-		console.log($(this).val().length)
 		$(this).addClass('has_cont');
 	}
 });	

@@ -909,7 +909,10 @@ body.call_back{
 	opacity: 0;
 }
 
-.g-recaptcha{
+.g-recaptcha,
+#example3,
+#example2,
+#example1{
 	padding-bottom: 20px;
 	padding-top: 10px;
 }

@@ -29,6 +29,11 @@
 							
 <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
 	<script type="text/javascript">
+	$('.input').each(function( index ) {
+		if ($(this).val().length) {
+			$(this).addClass('has_cont');
+		}
+	});	
 	$('#example1').html('');
 	var verifyCallback = function(response) {
 	alert(response);
