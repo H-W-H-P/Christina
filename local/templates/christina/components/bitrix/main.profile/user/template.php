@@ -111,13 +111,19 @@ $('#subuser').click(function(){
             cache:false,
             data : formData,
             success : function (msg){
-            	$('#resuser').html(msg);
+            	$('.form__wr').addClass('form__wr-suc');
+                setTimeout(function() {
+                    $('.form__wr').removeClass('form__wr-suc');
+                }, 5000);
             }
         });
         /*$('#resauto').load('/include/garag.php',$('#formauto').serializeArray());*/
     }
     return false;
 });
+
+
+
    
 $('.input').each(function( index ) {
     if ($(this).val().length) {
@@ -202,6 +208,10 @@ if ($arResult['DATA_SAVED'] == 'Y')
 					</div>
 					<div class="form__wr">
 						<button class="btn common__btn" id="subuser">Сохранить изменения</button>
+                        <p class="common__success">
+                            <img src="../images/check3.svg" alt="" class="">
+                            Ваши данные сохранены!
+                        </p>
 					</div>
 					<input type="hidden" name="save" value="<?=(($arResult["ID"]>0) ? GetMessage("MAIN_SAVE") : GetMessage("MAIN_ADD"))?>">
 

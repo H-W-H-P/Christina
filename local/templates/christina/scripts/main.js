@@ -801,7 +801,8 @@ $(document).ready(function () {
 	});
 	
 	$('.input[name="date"]').mask('00/00/0000');
-	$('.input[name="tel"]').mask('(000) 000 0000');
+	$('.input.prop_data').mask('00/00/0000');
+	$('.input[name="tel"]').mask('(000) 000 0000'); 
 	$('.input.prop_phone').mask('(000) 000 0000');
 
 	// map + api

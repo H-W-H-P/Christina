@@ -122,6 +122,7 @@ $('#subreg2').click(function(){
             data : formData,
             success : function (msg){
             	$('#resregister2').html(msg);
+                $('.registr_form').addClass('center');
             }
         });
         
