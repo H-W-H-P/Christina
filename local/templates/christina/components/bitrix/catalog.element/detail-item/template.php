@@ -183,7 +183,7 @@ $this->setFrameMode(true);
 		</div>
 	</section>
 
-	<section class="shop_slider sculp-slider prod_page_slider">	
+	<!--<section class="shop_slider sculp-slider prod_page_slider">	
 		<div class="max_width">
 			<div class="slider shop_slider__wr">
 				<div class="owl-carousel slider__wr">
@@ -265,12 +265,12 @@ $this->setFrameMode(true);
 				<h2 class="shop_slider__title title">Программа ухода</h2>
 				<p class="shop_slider__desc">Поддержание результатов инъекций ГК, уменьшение выраженности морщин.</p>
 				<p class="shop_slider__desc">Препараты ProSculpt повышают эффективность процедур эстетической медицины и способствуют поддержанию результатов в течение длительного времени. Они укрепляют кожу, улучшают текстуру, омолаживают и поддерживают её здоровый внешний вид.</p>
-				<a href="product.html" class="shop_slider__link w_arr">Подробнее о программе</a>
+<//!-- <a href="product.html" class="shop_slider__link w_arr">Подробнее о программе</a> --//>
 			</div>	
 		</div>
-	</section>
+	</section>-->
 
-	<section class="prod_comments half">
+	<!-- <section class="prod_comments half">
 		<div class="prod_comments__left_bg"></div>
 		<div class="prod_comments__right_bg"></div>
 		<div class="max_width">
@@ -368,7 +368,7 @@ $this->setFrameMode(true);
 				<?endif?>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	
 	<?
 	global $USER;

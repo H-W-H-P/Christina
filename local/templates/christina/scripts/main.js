@@ -18,6 +18,10 @@ $(document).ready(function () {
 	       $('.navigator__btn_wr[data-pos=".subs"]').addClass('active');
 	    }
 
+	$('.footer__spam_btn').click(function () {
+		return false;
+	});
+
 	/*$(document).on ('click', '.table__remove', function () {
 		$(this).closest('tr').remove();
 		$(this).closest('.basket_table__row').remove();

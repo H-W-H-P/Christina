@@ -248,6 +248,9 @@
 	-webkit-transition: all ease .4s;
 	-o-transition: all ease .4s;
 	transition: all ease .4s;
+	max-width: 190px;
+	max-height: 72px;
+	overflow: hidden;
 }
 
 .circle_wr__text:hover{
@@ -261,7 +264,8 @@
 	border-radius: 50%;
 	position: absolute;
 	content: '';
-	top: 50%;
+	/*top: 50%;*/
+	top: 10px;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
@@ -276,7 +280,7 @@
 .circle_wr__text3{
 	top: 46%;
 	left: auto;
-	right: .8%;
+	right: .5%;
 	-webkit-transform: translateX(100%);
 	-ms-transform: translateX(100%);
 	-o-transform: translateX(100%);
@@ -487,6 +491,8 @@
 		transform: none;
 		padding-left: 20px;
 		line-height: 38px;
+		max-height: inherit;
+		max-width: 180px;
 	}
 	.prod_circle__tablet .circle_wr__text{
 		display: block;
@@ -507,6 +513,7 @@
 	.prod_circle .circle_wr__text:after{
 		right: auto;
 		left: 0;
+		top: 20px;
 	}
 	.uniq_news,
 	.uniq_history{

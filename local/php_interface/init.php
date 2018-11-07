@@ -1,6 +1,6 @@
 <?@require_once 'include/autoload.php';
-define("RE_SITE_KEY","6LeuSXIUAAAAAH55cVXWMnmC5JdDTjEOXUGdoCmi");
-define("RE_SEC_KEY","6LeuSXIUAAAAAOZI2s-7kR0goz57ffIvMYUgUu0R");
+define("RE_SITE_KEY","6Lf9THkUAAAAAOPDbUrVXIcDiLqiWKgKanlPO63V");
+define("RE_SEC_KEY","6Lf9THkUAAAAAJz0jgXAWCDYXaIr0JsVtz3rmnJK");
 function pre($arr){
 	echo "<pre>";
 		print_r($arr);

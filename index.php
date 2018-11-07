@@ -161,7 +161,7 @@ $APPLICATION->SetTitle("Главная страница");
 					</div>
 				</div>
 			</form>		
-			<a href="pages/shop.html" class="btn half__btn_mob">Подобрать продукты</a>
+			<a href="/shop" class="btn half__btn_mob">Подобрать продукты</a>
 		</div>
 		<div class="half__block half__right">
 			<p class="procedures_form__text_mob procedures_form__text">

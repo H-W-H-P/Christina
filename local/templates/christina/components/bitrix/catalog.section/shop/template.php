@@ -63,10 +63,12 @@ $this->setFrameMode(true);
 			<?
 			$arFilter = array('IBLOCK_ID' => $arParams['IBLOCK_ID'], "ACTIVE" => "Y", "ID" => $k); // выберет потомков без учета активности
 		   $rsSect = CIBlockSection::GetList(array(),$arFilter, false, array("ID", "IBLOCK_ID", "NAME", "UF_*", "SECTION_PAGE_URL"), false);
-		   while ($arSect = $rsSect->GetNext())
+
+while ($arSect = $rsSect->GetNext())
 		   {
 		       $sect = $arSect;
 		   }
+
 			?>
 			<div class="shop_slider__about">
 				<h2 class="shop_slider__title title"><?=$sect['NAME']?></h2>

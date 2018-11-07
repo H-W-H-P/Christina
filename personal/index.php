@@ -38,21 +38,25 @@ if(!empty($_GET['del'])){
 				><a href="#" data-pos=".adress" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Адреса</span></a
 				><a href="#" data-pos=".password" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Смена пароля</span></a
 				><a href="#" data-pos=".order" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Мои заказы</span></a
-				><a href="#" data-pos=".tests" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Пройденные тесты</span></a
+
+				>
+			<!-- 	<a href="#" data-pos=".tests" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Пройденные тесты</span></a
 				><a href="#" data-pos=".answers" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">вопросы косметологу</span></a
 				><a href="#" data-pos=".reviews" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Мои отзывы</span></a
-				><a href="#" data-pos=".subs" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Мои подписки</span></a>
+				><a href="#" data-pos=".subs" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Мои подписки</span></a> -->
 			</div>
 			<?elseif($view == 'person_md'):?>
 			<div class="navigator__menu">
 				<a href="#" data-pos=".common" class="perNavBtn active navigator__btn_wr"><span class="navigator__btn">Личная информация</span></a
 				><a href="#" data-pos=".adress" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Адреса</span></a
 				><a href="#" data-pos=".password" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Смена пароля</span></a
-				><a href="#" data-pos=".order" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Мои заказы</span></a
-				><a href="#" data-pos=".reviews" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Мои отзывы</span></a
+				><a href="#" data-pos=".order" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Мои заказы</span>
+					</a
+				>
+				<!-- <a href="#" data-pos=".reviews" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Мои отзывы</span></a
 				><a href="#" data-pos=".subs" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Мои подписки</span></a
 				><a href="#" data-pos=".patients" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">Заказы пациентов</span></a
-				><a href="#" data-pos=".answers" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">выдать промокод</span></a>
+				><a href="#" data-pos=".answers" class="perNavBtn navigator__btn_wr"><span class="navigator__btn">выдать промокод</span></a> -->
 			</div>
 			<?endif?>
 		</div>
@@ -418,7 +422,7 @@ if(!empty($_GET['del'])){
 		
 		
 		
-		<section class="person_item subs">
+<!-- 		<section class="person_item subs">
 			<div class="max_width">
 				<h2 class="title common__title">Мои подписки</h2>
 				<h7 class="common__title_low">Будьте в курсе последних новостей и событий</h7>				
@@ -442,7 +446,7 @@ if(!empty($_GET['del'])){
 				<?endif?>
 				</form>
 			</div>
-		</section>
+		</section> -->
 	</div>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
