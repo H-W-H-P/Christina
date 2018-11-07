@@ -805,6 +805,11 @@ $(document).ready(function () {
 	$('.input[name="tel"]').mask('(000) 000 0000'); 
 	$('.input.prop_phone').mask('(000) 000 0000');
 
+	$('.basket__btn').click(function () {
+		$("html, body").animate({ scrollTop: $('.basket_form').offset().top }, 1000);
+		return false;	
+	});
+
 	// map + api
 	$('.input_drop__toggle').click(function () {
 		$(this).closest('.input_drop').toggleClass('open');

@@ -21,7 +21,7 @@ $this->setFrameMode(true);
 				<img src="<?=$file2['SRC']?>" alt="<?=$arItem['NAME']?>" class="column__img column__img_mob">
 				<h4 class="column__title"><?=$arItem['NAME']?></h4>
 				<p class="column__desc"><?=$arItem['PREVIEW_TEXT']?></p>
-				<a href="<?=$arItem['PROPERTIES']['URL']['DESCRIPTION']?>" class="column__link w_arr"><?=$arItem['PROPERTIES']['URL']['VALUE']?></a>
+				<!-- <a href="<?=$arItem['PROPERTIES']['URL']['DESCRIPTION']?>" class="column__link w_arr"><?=$arItem['PROPERTIES']['URL']['VALUE']?></a> -->
 			</li>
 	<?endforeach;?>
 </ul>

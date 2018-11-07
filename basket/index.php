@@ -302,9 +302,9 @@ while ($arItems = $dbBasketItems->Fetch())
 		</div>
 	</section>
 	<?else:?>
-		<section class="shop">
+		<section class="shop empty_basket">
 			<div class="max_width">		
-					<h3 class="basket__low_title title">Корзина пустая</h3>
+					<h3 class="basket__low_title empty_basket__title title">Корзина пустая</h3>
 			</div>
 		</section>
 	<?endif?>

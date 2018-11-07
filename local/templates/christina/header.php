@@ -17,6 +17,9 @@
 	<script src="<?=SITE_TEMPLATE_PATH?>/scripts/all.js"></script>
 </head>
 <body>
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
 	<?$APPLICATION->ShowPanel();?>
 	<header class="header">
 		<div class="header__underline_wr">

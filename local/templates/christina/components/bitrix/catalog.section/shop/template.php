@@ -71,7 +71,7 @@ $this->setFrameMode(true);
 			<div class="shop_slider__about">
 				<h2 class="shop_slider__title title"><?=$sect['NAME']?></h2>
 				<p class="shop_slider__desc"><?=$sect['~UF_TEXTSHOP']?></p>
-				<a href="<?=$sect['SECTION_PAGE_URL']?>" class="shop_slider__link w_arr">Смотреть всю серию</a>
+				<!-- <a href="<?=$sect['SECTION_PAGE_URL']?>" class="shop_slider__link w_arr">Смотреть всю серию</a> -->
 			</div>	
 		</div>
 	</section>

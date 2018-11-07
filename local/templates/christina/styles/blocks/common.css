@@ -10,6 +10,19 @@ html{
 	font-size: 64px;
 }
 
+.order_form_div{
+	padding-top: 40px;
+}
+
+.shop .empty_basket__title{
+	padding: 200px 0;
+}
+@media screen and (min-width: 2000px) {
+	.shop .empty_basket__title{
+		padding: 200px 0 500px;
+	}
+}
+
 .HDIW__navigator{
 	background: linear-gradient(rgba(217, 238, 252,.5),rgba(217, 238, 252, .5)), url(../../images/bg2.png);
 	-webkit-background-size: cover;

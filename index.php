@@ -646,7 +646,7 @@ $APPLICATION->SetTitle("Главная страница");
 	</section>
 
 	<!-- half-button -->
-	<?
+	<!-- <?
 	$arFilter = array("IBLOCK_ID" => 8, "ACTIVE" => "Y", "ID" => 22);
 	$res = CIBlockElement::GetList(Array(), $arFilter, false, false, array("ID", "IBLOCK_ID", "PROPERTY_TITLE", "PROPERTY_BUTTON", "PREVIEW_TEXT", "PREVIEW_PICTURE"));
 	while($ar_fields = $res->GetNext())
@@ -676,7 +676,7 @@ $APPLICATION->SetTitle("Главная страница");
 			<?endif?>
 			
 		</div>		
-	</section>
+	</section> -->
 
 	<!-- news-bad-section -->
 	<section class="uniq_news">

@@ -6,10 +6,10 @@
 				<p class="consult__info">
 					Если вы не уверены в правильности выбора товара, то вы всегда можете воспользоваться помощью наших профессиональных консультантов. Как по телефону, так и онлайн на сайте.
 				</p>
-				<a href="/consult/" class="consult__btn btn">Обратиться к консультанту</a>
+				<!-- <a href="/consult/" class="consult__btn btn">Обратиться к консультанту</a> -->
 			</div>
 		</div>
-		<div class="bot_nav">
+		<!-- <div class="bot_nav">
 			<ul class="bot_nav__list max_width">
 				<li class="bot_nav__list_item">
 					<dt><a href="" class="bot_nav__link">Prolift</a></dt>
@@ -62,7 +62,7 @@
 					<dd><a href="" class="bot_nav__link">Мимические морщины</a></dd>
 				</li>
 			</ul>
-		</div>
+		</div> -->
 		<div class="footer">
 			<div class="max_width">
 				<div class="footer__left">
@@ -320,7 +320,7 @@
 	</div>
 
 	<div class="basket_warn">
-		Товар(ы) был(и) добавлен(ы)
+		Товар был добавлен в корзину
 	</div>
 	
 	
@@ -346,8 +346,8 @@
 		</div>
 	</div>
 	
-	<div id="preloader">
+	<!-- <div id="preloader">
 		<div id="loader"></div>
-	</div>
+	</div> -->
 </body>
 </html>

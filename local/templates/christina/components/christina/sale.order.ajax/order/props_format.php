@@ -111,15 +111,16 @@ if (!function_exists("PrintPropsForm"))
 						{
 							?>
 							
-							<?if($arProperties["FIELD_NAME"] == 'ORDER_PROP_4'){
-								$valadres = $adres['PROPERTY_INDEX_VALUE'].", ".$adres['PROPERTY_CITY_VALUE'].", ".$adres['PROPERTY_ADRES_VALUE'];
+							<?if($arProperties["FIELD_NAME"] == 'ORDER_PROP_3')
+							{
+								?><input value="<?=$arProperties["VALUE"]?>" name="<?=$arProperties["FIELD_NAME"]?>" id="<?=$arProperties["FIELD_NAME"]?>" type="text" class="input prop_phone"><?
 							}
-							if(!empty($valadres)){
-								$arProperties["VALUE"] = $valadres;
+							else
+							{
+								?><input value="<?=$arProperties["VALUE"]?>" name="<?=$arProperties["FIELD_NAME"]?>" id="<?=$arProperties["FIELD_NAME"]?>" type="text" class="input"><?
 							}
-							?>
-							<input value="<?=$arProperties["VALUE"]?>" name="<?=$arProperties["FIELD_NAME"]?>" id="<?=$arProperties["FIELD_NAME"]?>" type="text" class="input">
-							<label class="ph" for="<?=$arProperties["FIELD_NAME"]?>" class=""><?=$arProperties["NAME"]?></label>
+
+							?><label class="ph" for="<?=$arProperties["FIELD_NAME"]?>" class=""><?=$arProperties["NAME"]?></label>
 							<p class="warning">Пустое поле</p>
 
 							<?
@@ -417,11 +418,11 @@ if (!function_exists("PrintPropsForm"))
 						<?
 					}
 					?>
-					<div class="input_wr w_ph">
+					<!-- <div class="input_wr w_ph">
 						<input id="promo" name="text" type="text" class="input">
 						<label class="ph" for="promo" class="">Промо код</label>
 						<p class="warning">неверный Промо код</p>
-					</div>
+					</div> -->
 				</div>
 			<?
 		}

@@ -1,5 +1,6 @@
 .shop__picker{
-	width: 696px;
+	/*width: 696px;*/
+	width: 100%;
 	float: left;
 }
 
@@ -266,7 +267,8 @@ input:checked + .shop_form__item:after{
 
 @media screen and (max-width: 1279px) {
 	.shop__picker{
-		width: 67%;
+		/*width: 67%;*/
+		width: 100%;
 	}
 	.shop_slider .owl-nav{
 		right: -18px;

@@ -6,32 +6,35 @@ $APPLICATION->SetTitle("Интернет-магазин");
 <section class="shop">
 		<div class="max_width">
 			<h1 class="shop__title title">Интернет-магазин</h1>
-			<?$APPLICATION->IncludeComponent("bitrix:catalog.smart.filter", "shop", Array(
-				"COMPONENT_TEMPLATE" => ".default",
-					"IBLOCK_TYPE" => "1c_catalog",	// Тип инфоблока
-					"IBLOCK_ID" => "7",	// Инфоблок
-					"SECTION_ID" => $_REQUEST["SECTION_ID"],	// ID раздела инфоблока
-					"SECTION_CODE" => "",	// Код раздела
-					"FILTER_NAME" => "arrFilter",	// Имя выходящего массива для фильтрации
-					"HIDE_NOT_AVAILABLE" => "N",	// Не отображать товары, которых нет на складах
-					"TEMPLATE_THEME" => "blue",	// Цветовая тема
-					"FILTER_VIEW_MODE" => "vertical",	// Вид отображения
-					"POPUP_POSITION" => "left",	// Позиция для отображения всплывающего блока с информацией о фильтрации
-					"DISPLAY_ELEMENT_COUNT" => "Y",	// Показывать количество
-					"SEF_MODE" => "N",	// Включить поддержку ЧПУ
-					"CACHE_TYPE" => "A",	// Тип кеширования
-					"CACHE_TIME" => "36000000",	// Время кеширования (сек.)
-					"CACHE_GROUPS" => "Y",	// Учитывать права доступа
-					"SAVE_IN_SESSION" => "N",	// Сохранять установки фильтра в сессии пользователя
-					"PAGER_PARAMS_NAME" => "arrPager",	// Имя массива с переменными для построения ссылок в постраничной навигации
-					"PRICE_CODE" => "",	// Тип цены
-					"CONVERT_CURRENCY" => "N",	// Показывать цены в одной валюте
-					"XML_EXPORT" => "N",	// Включить поддержку Яндекс Островов
-					"SECTION_TITLE" => "-",	// Заголовок
-					"SECTION_DESCRIPTION" => "-",	// Описание
-				),
-				false
-			);?>
+			<?$APPLICATION->IncludeComponent("bitrix:catalog.smart.filter", "shop", array(
+	"COMPONENT_TEMPLATE" => ".default",
+		"IBLOCK_TYPE" => "1c_catalog",
+		"IBLOCK_ID" => "7",
+		"SECTION_ID" => $_REQUEST["SECTION_ID"],
+		"SECTION_CODE" => "",
+		"FILTER_NAME" => "arrFilter",
+		"HIDE_NOT_AVAILABLE" => "N",
+		"TEMPLATE_THEME" => "blue",
+		"FILTER_VIEW_MODE" => "vertical",
+		"POPUP_POSITION" => "left",
+		"DISPLAY_ELEMENT_COUNT" => "Y",
+		"SEF_MODE" => "N",
+		"CACHE_TYPE" => "A",
+		"CACHE_TIME" => "36000000",
+		"CACHE_GROUPS" => "Y",
+		"SAVE_IN_SESSION" => "N",
+		"PAGER_PARAMS_NAME" => "arrPager",
+		"PRICE_CODE" => "",
+		"CONVERT_CURRENCY" => "N",
+		"XML_EXPORT" => "N",
+		"SECTION_TITLE" => "-",
+		"SECTION_DESCRIPTION" => "-"
+	),
+	false,
+	array(
+	"ACTIVE_COMPONENT" => "N"
+	)
+);?>
 			
 			
 			<?$APPLICATION->IncludeComponent(
