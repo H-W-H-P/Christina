@@ -77,6 +77,32 @@ $APPLICATION->SetTitle("Главная страница");
 
 	</section>
 
+<!-- 	<section class="big_banner big_banner_2">
+		<a href="/shop" class="big_banner_2__wr">
+			<div class="big_banner_2__left">
+				<h5 class="title big_banner_2__title">
+					Идеальный <br> домашний уход
+				</h5>
+				<p class="big_banner_2__text">для процедур эстетической медицины</p>
+				<p class="big_banner_2__text-big">
+					<img src="<?=SITE_TEMPLATE_PATH?>/images/360.png" alt="">
+				</p>
+				<p class="big_banner_2__text">вокруг процедуры</p>
+			</div>
+			<div class="big_banner_2__center">
+				<img src="<?=SITE_TEMPLATE_PATH?>/images/ban_img1.png" alt="">
+				<img src="<?=SITE_TEMPLATE_PATH?>/images/ban_img2.png" alt="">
+			</div>
+			<div class="big_banner_2__right">
+				<ul class="big_banner_2__list_wr">
+					<li>подготовка к процедурам</li>
+					<li>реабилитация после процедур</li>
+					<li>поддержание эффекта процедур</li>
+				</ul>
+			</div>
+		</a>
+	</section> -->
+
 	<!-- half-button -->
 	<section class="half_btn half index_half">
 		<div class="half__block half__left">

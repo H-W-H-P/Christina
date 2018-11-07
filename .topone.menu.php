@@ -22,22 +22,8 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"найти клинику", 
-		"#", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
 		"оплата и доставка", 
 		"/delivery/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"у меня есть промокод", 
-		"#", 
 		Array(), 
 		Array(), 
 		"" 

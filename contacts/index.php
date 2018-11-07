@@ -46,9 +46,9 @@ while($ar_fields = $res->GetNext())
 								<a href="tel:<?=$phone[$i]?>" class="contacts_map__link"><?=$phone[$i]?></a>
 								<span class="contacts_map__op"><?=$phone_descr[$i]?></span>
 							</div>
-							<div class="contacts_map__wr contacts_map__desc">
+					<!-- 		<div class="contacts_map__wr contacts_map__desc">
 								<a href="tel:<?=$phone[$i+1]?>" class="contacts_map__link"><?=$phone[$i+1]?></a>
-							</div>
+							</div> -->
 							<div class="contacts_map__wr">
 								<a href="mailto:<?=$email[$k]?>" class="contacts_map__mail laned"><?=$email[$k]?></a>
 							</div>
@@ -57,9 +57,9 @@ while($ar_fields = $res->GetNext())
 						<?endforeach;?>
 					</div>
 				</div>
-				<a href="#" class="btn contacts__communicate">Связаться с нами</a>
+				<!-- <a href="#" class="btn contacts__communicate">Связаться с нами</a>
 				<a href="#" class="btn contacts__find">Найти косметолога</a>
-				<a href="#" class="contacts__data laned">Ознакомиться с реквизитами</a>
+				<a href="#" class="contacts__data laned">Ознакомиться с реквизитами</a> -->
 			</div>
 			<div class="scroll_HDIW__text">
 				<iframe class="contacts_map__moscow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577336.7638984495!2d36.82513038949304!3d55.5807480820225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8!5e0!3m2!1sru!2sby!4v1537189842974" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

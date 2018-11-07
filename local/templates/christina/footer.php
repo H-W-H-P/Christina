@@ -107,7 +107,7 @@
 						<p>ООО «Кристина Клиникал»</p>
 						<p>ОГРН: 2563456354635</p>
 						<p>г. Москва, ул. Большая Филевская, 16</p>
-						<p class="footer__dev">Разработано HWHP</p>
+						<p class="footer__dev">Разработано <a href="https://catzwolf.ru/" target="_blank" class="dev"><img src="<?=SITE_TEMPLATE_PATH?>/images/dev.svg" alt=""></a></p>
 					</div>
 				</div>
 			</div>

@@ -1072,7 +1072,8 @@
 
 @media screen and (max-width: 1180px) {
 	.half__right{
-		background-image: url(../../images/half_face_right_low.svg);
+		/*background-image: url(../../images/half_face_right_low.svg);*/
+	    background-position: right -43px top 60px;
 	}
 	.propeel_half2__right{
 		background-image: none;
@@ -1124,7 +1125,7 @@
 	.half__right{
 		-ms-background-position-x: right;
 		background-position-x: right;
-		background-image: url(../../images/half_face_right.svg);
+		/*background-image: url(../../images/half_face_right.svg);*/
 		-ms-background-position-y: 15px;
 		background-position-y: 15px;
 	}
@@ -1528,7 +1529,7 @@
 		position: absolute;
 	}
 	.half_btn__form.procedures_form{
-		background: url(../../images/half_face_left.svg) no-repeat 0 23px;
+		background: url(../../images/half_face_left.png) no-repeat 0 23px;
 	    /*background-size: 81%;*/
 	    -webkit-background-size: 256px;
 	    background-size: 256px;
@@ -1538,7 +1539,7 @@
 		bottom: 28px;
 	}
 	.half__right .half_btn__form.procedures_form{
-		background-image: url(../../images/half_face_right.svg);
+		background-image: url(../../images/half_face_right.png);
 		-ms-background-position-x: right;
 		background-position-x: right;
 		padding-right: 50%;

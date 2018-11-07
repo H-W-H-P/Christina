@@ -8,20 +8,6 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"диагностика кожи", 
-		"#", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"консультация врача", 
-		"/consult/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
 		"советы врачей", 
 		"/articles/", 
 		Array(), 
